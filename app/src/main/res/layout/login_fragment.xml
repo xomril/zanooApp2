@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color_tutorial"
+    tools:context=".ui.LoginFragment">
+<!--    android:background="@drawable/gradient_background"-->
+<!--    android:background="#51c993"-->
+<!--    android:background="#8195bd"-->
+<!--    android:background="@drawable/gradient_background"-->
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="373dp"
+        android:layout_height="221dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/zaznoo_shoe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_button_bg"
+        android:text="התחברות"
+        android:textStyle="bold"
+        app:icon="@drawable/twitter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/registration_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_button_bg"
+        android:text="הרשמה"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_left_button"
+        android:layout_width="139dp"
+        android:layout_height="95dp"
+        android:src="@drawable/ellipse1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_right_button"
+        android:layout_width="139dp"
+        android:layout_height="95dp"
+        android:src="@drawable/ellipse2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_zaznoo_text"
+        android:layout_width="249dp"
+        android:layout_height="147dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/just_clean_zaznoo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
